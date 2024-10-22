@@ -22,8 +22,8 @@ The weather forecast application is for individuals to find the current and the 
 
 ## Credits
 
-OpenWeatherMap: provided free API that is utilized in this application.
-Teacher: John Young
-Teacher assistant: Zac Warner
-Classmates: Art Camacho, Thomas White
-Toutring service: Luis
+- OpenWeatherMap: provided free API that is utilized in this application.
+- Teacher: John Young
+- Teacher assistant: Zac Warner
+- Classmates: Art Camacho, Thomas White
+- Toutring service: Luis
