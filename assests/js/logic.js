@@ -9,7 +9,7 @@ search.addEventListener("click", function () {
 console.log(API_key);
 saveSearchHistory(locationInput.value);
 fetch(
-`http://api.openweathermap.org/geo/1.0/direct?q=${locationInput.value}&appid=${API_key}`
+`https://api.openweathermap.org/geo/1.0/direct?q=${locationInput.value}&appid=${API_key}`
 )
 .then((response) => response.json())
 .then((data) => {
@@ -47,7 +47,7 @@ search_element.addEventListener("click", function (e) {
 console.log(e.target.value);
 const city = e.target.value;
 fetch(
-`http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${API_key}`
+`https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${API_key}`
 )
 .then((response) => response.json())
 .then((data) => {
@@ -62,7 +62,7 @@ weather.innerHTML = `<p>Error: ${error}</p>`;
 };
 const getWeather = (name, lat, lon) => {
 fetch(
-`http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_key}`
+`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_key}`
 )
 .then((response) => response.json()) //grabbing response and turning it into json
 .then((data) => {
