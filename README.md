@@ -20,6 +20,10 @@ The blue_sky weather website was created with HTML, CSS, JavaScript, API's, and 
 
 The weather forecast application is for individuals to find the current and the next five days weather forecast of their choice.
 
+https://awwtala.github.io/blue_sky6/
+
+![Alt text](<assests/Screenshot 2024-10-26 at 10.58.24 AM.png>)
+
 ## Credits
 
 - OpenWeatherMap: provided free API that is utilized in this application.
