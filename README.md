@@ -22,7 +22,7 @@ The weather forecast application is for individuals to find the current and the 
 
 https://awwtala.github.io/blue_sky6/
 
-![Alt text](<assests/Screenshot 2024-10-26 at 10.58.24 AM.png>)
+![Alt text](<assests/images/Screenshot 2024-10-26 at 10.58.24 AM.png>)
 
 ## Credits
 
